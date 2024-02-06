@@ -5,12 +5,15 @@ body {
 }
 
 .box-profiling {
-    display: block;
-    margin: 64px auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    margin: auto;
     background-color: hsl(0, 0%, 12%);
     text-align: center;
     width: 340px;
-    height: 100%;
+    height: auto;
     border-radius: 6px;
 }
 
